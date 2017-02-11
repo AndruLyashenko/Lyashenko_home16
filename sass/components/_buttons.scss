@@ -1,0 +1,106 @@
+.button-have-main {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color: #e7434e;
+  padding: 25px 45px;
+}
+
+
+.header-button {
+  text-decoration: none;
+  text-align: center;
+  border-radius: 0 5px 5px 0;
+  background-color: #e7434e;
+  background-image: url("../images/sailboat.png");
+  background-repeat: no-repeat;
+  padding: 22px 41px 22px 68px;
+  background-position: 40px center;
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: uppercase;
+  float: right;
+  margin-right: 250px;
+}
+
+
+.header-button:hover {
+  background-color: yellowgreen;
+  color: blue;
+
+}
+
+.button-have-main:hover {
+  background-color: yellowgreen;
+  color: blue;
+
+}
+.footer-button {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: uppercase;
+  border-radius: 0 5px 5px 0;
+  background-color: #e7434e;
+  padding: 15px 35px;
+  float: left;
+
+}
+
+.footer-button:hover {
+  background-color: yellowgreen;
+  color: blue;
+
+}
+
+.button-explore {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 25px 43px;
+  color: #343434;
+  border: 1px solid rgba(38, 38, 38, 0.3);
+  background-color: rgba(113, 113, 113, 0);
+
+}
+
+.button-explore:hover {
+  background-color: yellowgreen;
+  color: blue;
+
+}
+
+.button-featured {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 25px 48px;
+  color: #343434;
+  border: 1px solid rgba(38, 38, 38, 0.3);
+  background-color: rgba(113, 113, 113, 0);
+
+
+}
+
+.button-featured:hover {
+  background-color: yellowgreen;
+  color: blue;
+
+}

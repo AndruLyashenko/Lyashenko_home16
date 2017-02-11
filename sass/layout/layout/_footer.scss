@@ -1,0 +1,109 @@
+.footer-logo {
+  display: inline-block;
+  padding-top: 10px;
+  color: #8e8e8e;
+  font-size: 13px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+footer {
+  background-color: #2a2b2c;
+  padding-top: 84px;
+  padding-bottom: 92px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.footer-menu {
+  float: left;
+}
+
+.footer-logo-icon {
+  width: 29px;
+  height: 29px;
+  display: block;
+  background-image: url("../../images/fasefooter.jpg");
+  background-repeat: no-repeat;
+}
+
+.footer-border-navigation {
+  background-image: url("../../images/slice-1.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.footer-border-navigation a {
+  padding-left: 30px;
+  color: #7b7b7c;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 39px;
+  text-transform: uppercase;
+}
+
+.footer-blok-left {
+  float: left;
+  width: 40%;
+}
+
+.footer-blok-middle {
+  float: left;
+  width: 20%;
+}
+
+.footer-blok-right {
+  float: left;
+  width: 40%;
+}
+
+.footer-text {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+::-webkit-input-placeholder {
+  color: pink;
+}
+
+::-moz-placeholder {
+  color: pink;
+}
+
+:-ms-input-placeholder {
+  color: pink;
+}
+
+:-moz-placeholder {
+  color: pink;
+}
+
+.form-input {
+  float: left;
+  width: 50%;
+}
+
+.form-input input {
+  width: 100%;
+  color: #b9b9b9;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 31px;
+  background-color: #2a2b2c;
+  border: 1px solid #373839;
+}
+
+textarea {
+  width: 100%;
+  border: 1px solid #373839;
+  background-color: #2a2b2c;
+  color: #b9b9b9;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 31px;
+}
