@@ -12,53 +12,81 @@ img {
   max-width: 100%;
 }
 
-.explore {
+.accordeon {
   background-color: #ffffff;
   padding-bottom: 80px;
+
+}
+
+h2 {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.accordeon-button {
+  background-image: url("../images/slice.png");
+  background-position: left;
+  background-repeat: no-repeat;
   text-align: center;
-
-}
-
-.explore-blok {
-  margin-top: -70px;
-}
-
-.explore-border {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  display: inline-block;
+  background-color: #ffffff;
+  color: #343434;
+  width: 100%;
+  padding: 25px 0;
+  margin-top: 30px;
   box-shadow: 0 0 30px rgba(52, 52, 52, 0.15);
   border-radius: 5px;
+}
+
+.active {
+  color: #ffffff;
+  background-color: blue;
+  background-image: url("../images/down-arrow.png");
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.accordeon-button:hover {
   background-color: #ffffff;
-  padding-top: 40px;
-
+  color: #343434;
 }
 
-.text-border {
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 22px;
-  text-transform: uppercase;
 
-}
-
-.text {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
-  padding-top: 20px;
-  margin-bottom: 45px;
-}
-
-.explore-border {
-  float: left;
-  width: 25%;
-}
-
-.featured {
+.accordeon-text.active {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 30px;
+  display: block;
   background-color: #ffffff;
-  padding-bottom: 90px;
-  padding-top: 100px;
-  text-align: center;
-
+  color: #343434;
 }
+
+.accordeon-button.active:hover{
+  background-color: #ffffff;
+}
+
+
+
+.accordeon-button:hover {
+  background-color: gray;
+}
+
+
+.accordeon-text {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 30px;
+  display: none;
+}
+
 
 .have-main {
   background-color: #e7434e;
@@ -73,144 +101,8 @@ img {
 
 }
 
-.port-image, .boat-image {
-  position: relative;
-  margin-bottom: 30px;
-}
-
-.explore-pozition {
-  margin-bottom: 100px;
-}
-
-.featured-pozition {
-  margin-bottom: 100px;
-
-}
-
-.marker {
-  background-image: url("../images/marker1.png");
-  background-repeat: no-repeat;
-  background-position: 12px center;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 22px;
-  text-transform: uppercase;
-  position: absolute;
-  bottom: 40px;
-  left: 10px;
-
-}
 
 
-.boat-image .text {
-  color: #ffffff;
-  float: left;
-  width: 50%;
-
-}
-
-.marker-icon {
-  background-image: url("../images/multipleicon.png");
-  background-repeat: no-repeat;
-  background-position: 12px center;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 22px;
-  text-transform: uppercase;
-  position: absolute;
-  bottom: -20px;
-  left: 30px;
-  float: left;
-  width: 50%;
-  }
-
-
-.text-icon {
-  background-color: #e7434e;
-  background-image: url("../images/sailboat.png");
-  background-repeat: no-repeat;
-  padding: 15px 12px 15px 40px;
-  background-position: 12px center;
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 22px;
-  text-transform: uppercase;
-  border-radius: 5px;
-  position: absolute;
-  top: 20px;
-  left: 60px;
-}
-
-.image-blok {
-  position: absolute;
-  bottom: 20px;
-  left: 50px;
-}
-
-
-.image-blok-text {
-  color: #ffffff;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 40px;
-
-}
-
-
-.text-image {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 30px;
-  color: #ffffff;
-}
-
-h3 {
-   font-size: 30px;
-   font-weight: 400;
-   line-height: 28px;
-   text-transform: uppercase;
-
- }
-
-.port-image {
-  float: left;
-  width: 33.33%;
-}
-
-.explore-image .port-image {
-  float: left;
-  width: 66.66%;
-}
-
-.boat-image {
-  float: left;
-  width: 50%;
-
-}
-
-.boat-image.text-icon {
-  background-color: #e7434e;
-  padding: 15px 12px 15px 40px;
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 22px;
-  text-transform: uppercase;
-  border-radius: 5px;
-  position: absolute;
-  top: 20px;
-  left: 60px;
-}
-
-
-h2 {
-  font-size: 72px;
-  font-weight: 700;
-  line-height: 28px;
-  text-transform: uppercase;
-  margin-bottom: 30px;
-}
 
 .have-main-text {
   font-family: "Open Sans", sans-serif;

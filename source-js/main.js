@@ -1,7 +1,7 @@
-$('.accordion-button').on('click',function() {
+$('.accordeon-button').on('click',function() {
     var id = $(this).attr('data-id');
-    $('.accordion-text.active').removeClass('active');
-    $('.accordion-text[data-id="' + id  + '"]').toggleClass('active');
+    $('.accordeon-text.active').removeClass('active');
+    $('.accordeon-text[data-id="' + id  + '"]').toggleClass('active');
 });
 $('.tooltip').on('hover', function() {
     var left = $(this).offsetLeft;

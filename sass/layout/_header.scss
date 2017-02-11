@@ -5,13 +5,18 @@
   background-repeat: no-repeat;
   text-align: center;
   padding-top: 38px;
-  padding-bottom: 80px;
+  padding-bottom: 110px;
 }
 
 .logo {
   float: left;
 
 }
+
+
+// не розібрався як зробить гамбургер-меню і кнопку без будстрапа, довго возився втратив багато часу, але не вийшло
+//не вдалося мені зрозуміти як повязати код скрипта і медіа. клік я розумію а медіа ні. треба буде ще розбиратися
+//вдвох
 
 .menu-header {
   float: right;
@@ -21,7 +26,6 @@
 header {
   li {
     float: left;
-    padding: 0 20px;
     a {
       color: #f9fafe;
       font-size: 16px;
@@ -29,6 +33,7 @@ header {
       text-transform: uppercase;
       font-weight: 700;
       list-style-type: none;
+      padding: 10px 20px;
     }
   }
 }
@@ -39,14 +44,15 @@ header li:hover a {
   border-radius: 5px;
   border: 1px solid #f9fafe;
   background-color: rgba(201, 9, 4, 0);
-  padding: 15px 40px;
+  padding: 10px 30px;
   color: red;
 
 }
 
 
 .header-blok {
-  margin-top: 220px;
+  margin-top: 20px;
+  padding-top: 100px;
 }
 
 
@@ -68,42 +74,5 @@ h1 {
   line-height: 22px;
   text-transform: uppercase;
 }
-
-.header-form {
-  margin-top: 90px;
-  margin-bottom: 230px;
-
-}
-
-::-webkit-input-placeholder {
-  color: #717171;
-}
-
-::-moz-placeholder {
-  color: #717171;
-}
-
-:-ms-input-placeholder {
-  color: #717171;
-}
-
-:-moz-placeholder {
-  color: #717171;
-}
-
-header .form-input input {
-  width: 100%;
-  height: 67px;
-  font-size: 14px;
-  font-style: italic;
-  line-height: 22px;
-  background-color: #ffffff;
-  border-radius: 5px;
-  font-weight: 400;
-  text-transform: uppercase;
-  float: left;
-  margin-left: 250px;
-}
-
 
 
