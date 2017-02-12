@@ -46,7 +46,7 @@ h2 {
   border-radius: 5px;
 }
 
-.active {
+.accordeon .active {
   color: #ffffff;
   background-color: blue;
   background-image: url("../images/down-arrow.png");
@@ -70,7 +70,8 @@ h2 {
 }
 
 .accordeon-button.active:hover{
-  background-color: #ffffff;
+  background-color: blue;
+  color: #ffffff;
 }
 
 
@@ -78,6 +79,7 @@ h2 {
 .accordeon-button:hover {
   background-color: gray;
 }
+
 
 
 .accordeon-text {
@@ -89,29 +91,150 @@ h2 {
 
 
 .have-main {
-  background-color: #e7434e;
   background-image: url("../images/background-photo.jpg");
   background-repeat: no-repeat;
-  padding: 22px 41px 22px 68px;
-  background-position: left center;
-  padding-bottom: 160px;
-  padding-top: 190px;
+  background-position: center;
   text-align: center;
   background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+.have-main h3 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 52px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.dialog-button {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 52px;
+  color: #ffffff;
+  box-shadow: 0 0 1px rgba(2, 2, 2, 0.15);
+  border-radius: 5px;
+  padding: 15px 15px;
 
 }
 
 
+.dialog-button:hover{
+  background-color: grey;
+  color: #ffffff;
+}
+
+.dialog-blok  {
+  display: none;
+}
 
 
-.have-main-text {
+.dialog-blok h3 {
+position: relative;
+}
+
+.dialog-blok.active {
+  display: block;
+  position: fixed;
+  top: 200px;
+  left: 150px;
+  height: 600px;
+  color: #ffffff;
+  background-color: green;
+
+}
+
+.dialog-blok-image {
+  background-image: url("../images/xrest.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  right: 30%;
+}
+
+
+.dialog-text {
   font-family: "Open Sans", sans-serif;
   font-size: 30px;
   font-weight: 400;
-  line-height: 22px;
-  text-transform: uppercase;
-  margin-bottom: 90px;
+  line-height: 32px;
+  color: #ffffff;
+  margin: 30px 10px;
+  padding: 50px 100px;
 }
 
 
 
+.tabs {
+  background-color: honeydew;
+  padding-bottom: 750px;
+  padding-top: 50px;
+
+}
+
+.tabs-button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 30px 10px;
+  text-transform: uppercase;
+}
+
+.tabs-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 27px;
+  display: none;
+}
+
+.tabs-button:hover{
+  background-color: grey;
+
+}
+
+.tabs-blok {
+  float: left;
+  width: 33.33%;
+}
+
+.tabs .active {
+  display: block;
+  color: #ffffff;
+  background-color: green;
+
+}
+
+.tabs-text.active {
+  display: block;
+}
+
+.tooltip {
+  background-color: #ffffff;
+  padding-bottom: 250px;
+  padding-top: 50px;
+}
+
+.tooltip-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 37px;
+  color: #343434;
+}
+
+
+.tooltip-hover {
+  display: none;
+}
+
+.tooltip-hover.active {
+  color: #ffffff;
+  background-color: green;
+}
